@@ -1,76 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
+  <!-- font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
   <!-- css -->
-  <link rel="stylesheet" href="css/reset.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- /css -->
-</head>
-<body>
-  <header>
-    <div class="header_inner">
-      <h1 class="header_logo">
-        <a href="/" class="pc_b"><img src="https://placehold.jp/150x150.png" alt="大阪 梅田 デリバリーヘルス アイドル研究所"></a>
-        <a href="/" class="sp_b"><img src="https://placehold.jp/150x150.png" alt="大阪 梅田 デリバリーヘルス アイドル研究所"></a>
-      </h1>
-      <div class="header_info pc_b">
-        <p class="flex">OPEN 10:00～翌5:00</p>
-        <!-- <dl class="header_time flex">
-          <dt>OPEN</dt>
-          <dd>
-            10:00<span>～翌</span>5:00
-          </dd>
-        </dl> -->
-        <!-- <dl class="header_time flex">
-          <dt>電話受付</dt>
-          <dd>
-            00:00<span>～</span>00:00)
-          </dd>
-        </dl> -->
-        <dl class="header_tel flex">
-          <dt><i class="fas fa-phone"></i></dt>
-          <dd>06-6379-5284</dd>
-        </dl>
-      </div>
-      <!-- <div class="header_info sp_b">
-        <a href="tel:06-6379-5284"><i class="fas fa-phone-square-alt"></i></a>
-        <a href="https://line.me/ti/p/H_IFUh2EOu"><i class="fab fa-line"></i></a>
-      </div> -->
-    </div><!-- header_inner -->
-    <p class="sp_menubtn">
-      <span></span>
-      <span></span>
-      <span></span>
-    </p>
-    <div class="globalnavi_wrapper">
-      <nav class="globalnavi">
-        <ul class="globalmenu">
-          <li class="sp_b closeBtn"><span><i class="fas fa-times"></i>閉じる</span></li>
-          <li><a href="/"><i class="fas fa-home"></i>Top<span>トップ</span></a></li>
-          <li><a href="/system"><i class="fas fa-tint"></i>System<span>料金システム</span></a></li>
-          <li><a href="/girllist"><i class="fas fa-hand-holding-heart"></i>Idol<span>所属アイドル</span></a></li>
-          <li><a href="/newface"><i class="fa-solid fa-clover"></i>NewFace<span>新人アイドル</span></a></li>
-          <li><a href="/daysche"><i class="fas fa-calendar-check"></i>Schedule<span>出勤情報</span></a></li>
-          <li><a href="/ranking"><i class="fas fa-calendar-check"></i>Ranking<span>ランキング</span></a></li>
-          <li><a href="/eventList"><i class="fas fa-calendar-check"></i>Event<span>イベント</span></a></li>
-          <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/diarylist/?lo=1"><i class="fas fa-camera"></i>PhotoDiary<span>写メ日記</span></a></li>
-          <li class="sp_b"><a href="/voice?a=l"><i class="fas fa-comment-dots"></i>レビュー<span>Review</span></a></li>
-          <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/reviews/"><i class="fa-solid fa-star-half-stroke"></i>Evaluate<span>口コミ</span></a></li>
-          <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/A6ShopReservation/"><i class="fa-solid fa-bell-concierge"></i>Reserve<span>ネット予約</span></a></li>
-          <li><a href="https://www.girlsheaven-job.net/osaka/ma-49/sa-465/idolkenkyujo/"><i class="fas fa-seedling"></i>Recruit<span>キャスト求人</span></a></li>
-          <li><a href="https://mensheaven.jp/8/idolkenkyujo/"><i class="fas fa-seedling"></i>Recruit<span>スタッフ求人</span></a></li>
-          <li class="sp_b"><a href="/link"><i class="fas fa-link"></i>リンク<span>Link</span></a></li>
-        </ul>
-      </nav>
-    </div><!-- globalnavi_wrapper -->
-  </header>
+  <link rel="stylesheet" href="/crystal_02/css/reset.min.css">
+  <link rel="stylesheet" href="/crystal_02/css/style.css">
 
   <!-- js -->
-  <script src="script.js"></script>
+  <script src="/crystal_02/js/config.js"></script>
+  <script src="/crystal_02/js/common_header.js"></script>
+  <script src="/crystal_02/js/common_footer.js"></script>
+
+  <!--  JQUERY  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/crystal_02/js/common.js"></script>
+
+</head>
+
+<body>
+  <header></header>
+  <main class="wrapper">
+    <div class="wrapper_inner">
+      <section id="top_waiting" class="block">
+        <h2 class="section_title">本日出勤</h2>
+        <!-- <p class="text_right text_sub sp_sectioninner">最終更新時間：2025/03/29 16:05</p> -->
+        <div class="therapist_list flex">
+          <div>
+            <a href="/index.php/module/Store/action/GirlInfo/Store_Id/37/User_Id/3874"></a>
+            <!-- 新人チェックで　therapist_new クラス付与 -->
+            <div class="therapist_img_wrapper rank rank_3 ">
+              <p class="therapist_img">
+                <img src="https://placehold.jp/150x150.png" alt="「りんか」写真">
+              </p>
+              <ul class="therapist_icon">
+                <!--  -->
+                <!-- 管理画面で設定されたランクのsytleをspanに付与 -->
+                <li><span style="background-color: #616161;color: #ffffff;">地下アイドル</span></li>
+              </ul>
+
+              <!-- <ul class="therapist_sns flex">
+                                <li class="sns_icon_twitter">
+                  <a href="https://twitter.com/@aidolRinka_20" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                </li>
+                                            </ul> -->
+            </div>
+            <div class="therapist_meta">
+              <h3 class="therapist_name">りんか（20）</h3>
+              <p class="therapist_height">T.157cm / B85（D）/ W54 / H84</p>
+              <p class="therapist_time therapist_text_box">10:00～23:00</p>
+              <p class="therapist_comment therapist_text_box">
+                今すぐOK！
+              </p>
+              <!-- <p class="therapist_room therapist_text_box"></p> -->
+              <ul class="icontype flex">
+                <li>美脚</li>
+                <li>美乳</li>
+                <li>敏感</li>
+                <li>色白</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a href="/index.php/module/Store/action/GirlInfo/Store_Id/37/User_Id/4271"></a>
+            <!-- 新人チェックで　therapist_new クラス付与 -->
+            <div class="therapist_img_wrapper  ">
+              <p class="therapist_img">
+                <img src="https://placehold.jp/150x150.png" alt="「らいな」写真">
+              </p>
+              <ul class="therapist_icon">
+                <!--  -->
+                <!-- 管理画面で設定されたランクのsytleをspanに付与 -->
+                <li><span style="background-color: #616161;color: #ffffff;">地下アイドル</span></li>
+              </ul>
+
+              <!-- <ul class="therapist_sns flex">
+                                            </ul> -->
+            </div>
+            <div class="therapist_meta">
+              <h3 class="therapist_name">らいな（20）</h3>
+              <p class="therapist_height">T.152cm / B86（C）/ W54 / H81</p>
+              <p class="therapist_time therapist_text_box">10:00～20:00</p>
+              <p class="therapist_comment therapist_text_box">
+                今すぐOK！
+              </p>
+              <!-- <p class="therapist_room therapist_text_box"></p> -->
+              <ul class="icontype flex">
+                <li>エロい</li>
+                <li>美脚</li>
+                <li>敏感</li>
+                <li>色白</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a href="/index.php/module/Store/action/GirlInfo/Store_Id/37/User_Id/4080"></a>
+            <!-- 新人チェックで　therapist_new クラス付与 -->
+            <div class="therapist_img_wrapper rank rank_1 ">
+              <p class="therapist_img">
+                <img src="https://placehold.jp/150x150.png" alt="「ちゆ」写真">
+              </p>
+              <ul class="therapist_icon">
+                <!--  -->
+                <!-- 管理画面で設定されたランクのsytleをspanに付与 -->
+                <li><span style="background-color: #616161;color: #ffffff;">地下アイドル</span></li>
+              </ul>
+
+              <!-- <ul class="therapist_sns flex">
+                                <li class="sns_icon_twitter">
+                  <a href="https://twitter.com/@Ti_yU1112" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                </li>
+                                            </ul> -->
+            </div>
+            <div class="therapist_meta">
+              <h3 class="therapist_name">ちゆ（20）</h3>
+              <p class="therapist_height">T.152cm / B88（E）/ W55 / H84</p>
+              <p class="therapist_time therapist_text_box">12:00～20:00</p>
+              <p class="therapist_comment therapist_text_box">
+                今すぐOK！
+              </p>
+              <!-- <p class="therapist_room therapist_text_box"></p> -->
+              <ul class="icontype flex">
+                <li>美脚</li>
+                <li>色白</li>
+                <li>スタイル抜群</li>
+                <li>受け身好き</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a href="/index.php/module/Store/action/GirlInfo/Store_Id/37/User_Id/3831"></a>
+            <!-- 新人チェックで　therapist_new クラス付与 -->
+            <div class="therapist_img_wrapper  ">
+              <p class="therapist_img">
+                <img src="https://placehold.jp/150x150.png" alt="「ゆみ」写真">
+              </p>
+              <ul class="therapist_icon">
+                <!--  -->
+                <!-- 管理画面で設定されたランクのsytleをspanに付与 -->
+                <li><span style="background-color: #0000e1;color: #ffffff;">劇場アイドル</span></li>
+              </ul>
+
+              <!-- <ul class="therapist_sns flex">
+                                            </ul> -->
+            </div>
+            <div class="therapist_meta">
+              <h3 class="therapist_name">ゆみ（18）</h3>
+              <p class="therapist_height">T.151cm / B88（E）/ W55 / H85</p>
+              <p class="therapist_time therapist_text_box">17:00～05:00</p>
+              <p class="therapist_comment therapist_text_box">
+                17:00～ご案内
+              </p>
+              <!-- <p class="therapist_room therapist_text_box"></p> -->
+              <ul class="icontype flex">
+                <li>美脚</li>
+                <li>色白</li>
+                <li>ルックス抜群</li>
+                <li>受け身好き</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a href="/index.php/module/Store/action/GirlInfo/Store_Id/37/User_Id/4266"></a>
+            <!-- 新人チェックで　therapist_new クラス付与 -->
+            <div class="therapist_img_wrapper  ">
+              <p class="therapist_img">
+                <img src="https://placehold.jp/150x150.png" alt="「うるは」写真">
+              </p>
+              <ul class="therapist_icon">
+                <!--  -->
+                <!-- 管理画面で設定されたランクのsytleをspanに付与 -->
+                <li><span style="background-color: #ff00c8;color: #ffffff;">プレミアアイドル</span></li>
+              </ul>
+
+              <!-- <ul class="therapist_sns flex">
+                                            </ul> -->
+            </div>
+            <div class="therapist_meta">
+              <h3 class="therapist_name">うるは（20）</h3>
+              <p class="therapist_height">T.156cm / B86（D）/ W54 / H82</p>
+              <p class="therapist_time therapist_text_box">18:00～02:00</p>
+              <p class="therapist_comment therapist_text_box">
+                18:00～ご案内
+              </p>
+              <!-- <p class="therapist_room therapist_text_box"></p> -->
+              <ul class="icontype flex">
+                <li>濃厚サービス</li>
+                <li>エロい</li>
+                <li>美脚</li>
+                <li>敏感</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a href="/index.php/module/Store/action/GirlInfo/Store_Id/37/User_Id/4364"></a>
+            <!-- 新人チェックで　therapist_new クラス付与 -->
+            <div class="therapist_img_wrapper  therapist_new">
+              <p class="therapist_img">
+                <img src="https://placehold.jp/150x150.png" alt="「るる」写真">
+              </p>
+              <ul class="therapist_icon">
+                <!--  -->
+                <!-- 管理画面で設定されたランクのsytleをspanに付与 -->
+                <li><span style="background-color: #616161;color: #ffffff;">地下アイドル</span></li>
+              </ul>
+
+              <!-- <ul class="therapist_sns flex">
+                                <li class="sns_icon_twitter">
+                  <a href="https://twitter.com/@r_rull3" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                </li>
+                                            </ul> -->
+            </div>
+            <div class="therapist_meta">
+              <h3 class="therapist_name">るる（20）</h3>
+              <p class="therapist_height">T.159cm / B88（F）/ W56 / H84</p>
+              <p class="therapist_time therapist_text_box">12:00～23:00</p>
+              <p class="therapist_comment therapist_text_box">
+                18:30～ご案内
+              </p>
+              <!-- <p class="therapist_room therapist_text_box"></p> -->
+              <ul class="icontype flex">
+                <li>エロい</li>
+                <li>美乳</li>
+                <li>色白</li>
+                <li>受け身好き</li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!-- therapist_list -->
+        <div class="btn_wrapper">
+          <p><a href="/daysche?ti=1" class="btn btn_more">明日の出勤情報はコチラ</a></p>
+        </div>
+      </section><!-- top_waiting -->
+
+      <footer class="wrapper block"></footer>
+  </main>
+  </div>
+  <!-- js -->
+  <script src="/crystal_02/js/script.js"></script>
   <!-- /js -->
 </body>
+
 </html>
