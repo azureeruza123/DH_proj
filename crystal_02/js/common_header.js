@@ -45,16 +45,14 @@ document.addEventListener("DOMContentLoaded", () => {
           <li><a href="${ROOT_PATH}/daysche"><i class="fas fa-calendar-check"></i>Schedule<span>出勤情報</span></a></li>
           <li><a href="${ROOT_PATH}/ranking"><i class="fas fa-calendar-check"></i>Ranking<span>ランキング</span></a></li>
           <li><a href="${ROOT_PATH}/eventList"><i class="fas fa-calendar-check"></i>Event<span>イベント</span></a></li>
-          <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/diarylist/?lo=1"><i
+          <li><a href="${ROOT_PATH}/diary"><i
                 class="fas fa-camera"></i>PhotoDiary<span>写メ日記</span></a></li>
           <li class="sp_b"><a href="${ROOT_PATH}/voice?a=l"><i class="fas fa-comment-dots"></i>レビュー<span>Review</span></a></li>
-          <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/reviews/"><i
-                class="fa-solid fa-star-half-stroke"></i>Evaluate<span>口コミ</span></a></li>
-          <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/A6ShopReservation/"><i
+          <li><a href=""><i
                 class="fa-solid fa-bell-concierge"></i>Reserve<span>ネット予約</span></a></li>
-          <li><a href="https://www.girlsheaven-job.net/osaka/ma-49/sa-465/idolkenkyujo/"><i
+          <li><a href=""><i
                 class="fas fa-seedling"></i>Recruit<span>キャスト求人</span></a></li>
-          <li><a href="https://mensheaven.jp/8/idolkenkyujo/"><i
+          <li><a href=""><i
                 class="fas fa-seedling"></i>Recruit<span>スタッフ求人</span></a></li>
           <li class="sp_b"><a href="${ROOT_PATH}/link"><i class="fas fa-link"></i>リンク<span>Link</span></a></li>
         </ul>

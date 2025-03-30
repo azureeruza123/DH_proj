@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <div class="footer_wrapper flex">
       <div class="footer_info flex">
-        <img src="/img/footer_logo.png" alt="大阪 梅田 デリバリーヘルス アイドル研究所">
-        <p>大阪デリバリーヘルス アイドル研究所</p>
+        <img src="https://placehold.jp/150x150.png" alt="大阪 梅田 デリバリーヘルス アイドル研究所">
+        <p>大宮デリバリーヘルス Crystal</p>
         <dl>
           <dt>TEL</dt>
           <dd>
@@ -33,16 +33,14 @@ document.addEventListener("DOMContentLoaded", () => {
           <li><a href="${ROOT_PATH}/eventList">イベント</a></li>
           <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/diarylist/?lo=1">写メ日記</a></li>
           <li><a href="${ROOT_PATH}/voice?a=l">レビュー</a></li>
-          <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/reviews/">口コミ</a></li>
           <li><a href="https://www.cityheaven.net/osaka/A2701/A270101/idolkenkyujo/A6ShopReservation/">ネット予約</a></li>
           <li><a href="https://www.girlsheaven-job.net/osaka/ma-49/sa-465/idolkenkyujo//">キャスト求人</a></li>
           <li><a href="https://mensheaven.jp/8/idolkenkyujo/">スタッフ求人</a></li>
-          <li><a href="${ROOT_PATH}/link">リンク</a></li>
           <!--<li><a href="https://www.cityheaven.net/osaka/A2702/A270201/mens_torokeruspa/A6ShopReservation/">ネット予約</a></li>-->
         </ul>
       </div>
     </div>
-    <p class="copyright"><a href="/">Copyright&copy; アイドル研究所 All Rights Reserved.</a></p>
+    <p class="copyright"><a href="/">Copyright&copy; 大宮Crystal All Rights Reserved.</a></p>
   
     <ul id="footer_fixedmenu" class="flex">
       <li>
