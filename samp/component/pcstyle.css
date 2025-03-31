@@ -1,0 +1,278 @@
+
+
+#shopbody {
+        
+  background: #eded00;
+  
+  background: -moz-linear-gradient(#eded00, #eded93);
+  background: -webkit-gradient(linear, left top, left bottom, from(#eded00), to(#eded93));
+  background: linear-gradient(to bottom, #eded00, #eded93);/* IE10+, W3C */
+}
+
+#tablet-top #shopbody {
+  
+  background: #eded00;
+  
+  background: -moz-linear-gradient(#eded00, #eded93);
+  background: -webkit-gradient(linear, left top, left bottom, from(#eded00), to(#eded93));
+  background: linear-gradient(to bottom, #eded00, #eded93);/* IE10+, W3C */
+}     #tablet-contents #shopbody {
+  background : #eded00     }
+
+
+
+
+
+.pcwidgets .pcwidgets-menu .item a {
+  color : #ffffff     }     .pcwidgets .pcwidgets-menu .item a:hover {
+  color : #FFFFFF     }
+.pcwidgets .pcwidgets-menu .item.stay a {
+  color : #FFFFFF     }
+.pcwidgets .pcwidgets-menu {
+  background-color : rgba(94,94,94,0.7)     }     .pcwidgets .pcwidgets-menu .item:hover {
+  background-color : rgba(0,0,0,0.7)     }     .pcwidgets .pcwidgets-menu .item.stay {
+  background-color : rgba(0,0,0,0.7)     }
+
+
+
+.pcwidgets .pcwidgets-contents {
+  font-size : 140%     }
+.pcwidgets .pcwidgets-contents {
+  background : rgba(249,114,114,0.4)     }     .pcwidgets .pcwidgets-contents {
+  color : #000000     }     .pcwidgets .pcwidgets-contents.important {
+  color : #000000 !important     }     .pcwidgets .pcwidgets-contents a {
+  color : #00ce00     }     .pcwidgets .pcwidgets-contents a:hover {
+  color : #d15788     }
+
+
+.pcwidgets .pcwidgets-contents {
+  border-radius : 5px     }
+.pcwidgets .pcwidgets-contents .pcwidgets-title {
+  border-radius : 4px     }
+
+ .pcwidgets .pcwidgets-contents {
+  border-style : none     }
+
+
+
+
+
+.pcwidgets .pcwidgets-contents .pcwidgets-title {
+  background-color : #ff6005 !important     }
+
+.pcwidgets .pcwidgets-contents .pcwidgets-title {
+
+
+  background-image: url(/img/designeditshoppc/gradient_white.png?cache02=1519689600_for_psi&imgopt=y) !important;
+
+  background-repeat: repeat-x !important;
+  background-position: bottom center !important;
+  background-size: auto !important;
+}
+.pcwidgets .pcwidgets-contents .pcwidgets-title > span {
+  color : #ffffff !important     }     .pcwidgets .pcwidgets-contents .pcwidgets-title > a {
+  color : #ffffff !important     }
+.pcwidgets .pcwidgets-contents .pcwidgets-title > span {
+  font-weight : bold     }
+ .pcwidgets .pcwidgets-contents .pcwidgets-title > span {
+  text-shadow : 1px 2px 2px #a8a8a8     }
+
+ .pcwidgets .pcwidgets-contents .pcwidgets-title {
+  border-style : none     }
+
+
+#shop-age-auth .overlay  {
+   background-color : #eded3b     }
+
+
+
+.pcwidgets .pcwidgets-contents .pcwidgets-tab {
+  background-color : #ffffff     }     .pcwidgets .pcwidgets-contents .pcwidgets-tab>span {
+  color : #ff6005     }     .pcwidgets .pcwidgets-contents .pcwidgets-tab.active {
+  background-color : #ff6005     }     .pcwidgets .pcwidgets-contents .pcwidgets-tab.active>span {
+  color : #ffffff     }
+.pcwidgets .pcwidgets-contents .pcwidgets-tab:hover {
+  background-color : #ff6005     }     .pcwidgets .pcwidgets-contents .pcwidgets-tab:hover > span {
+  color : #ffffff     }
+.pcwidgets .pcwidgets-contents input.pcwidgets-tab.active {
+  color : #ffffff     }
+.pcwidgets .pcwidgets-contents .shukkin-controller .pcwidgets-tab:hover {
+  background-color : #ff6005 !important     } 
+.pcwidgets .pcwidgets-contents .shukkin-controller .pcwidgets-tab:hover span {
+  color : #ffffff !important     }     .pcwidgets .pcwidgets-contents .shukkin-controller .pcwidgets-tab.active>span {
+  color : #ffffff !important     }
+
+
+
+.pcwidgets .pcwidgets-contents .pcwidgets-subtitle-border {
+  border-style : solid !important     }     .pcwidgets .pcwidgets-contents .pcwidgets-subtitle-border {
+  border-width : 1px !important     }     .pcwidgets .pcwidgets-contents .pcwidgets-subtitle-border {
+  border-color : #ff6005 !important     }
+
+.pcwidgets .pcwidgets-contents ul.pcwidgets-top-borders li:first-child {
+  border-top : none     }     .pcwidgets .pcwidgets-contents ul.pcwidgets-top-borders li {
+   border-top : dashed 1px     }     .pcwidgets .pcwidgets-contents ul.pcwidgets-top-borders li {
+  border-top-color : #000000     }
+
+.girlprofile_list > ul li.shop a, .girlprofile_list > ul li.shop span  {
+  color : #ffffff !important     }     .girlprofile_list > ul li.shop a:hover {
+  color : #FFFFFF !important     }     .girlprofile_list > ul li.shop {
+  background-color : 94,94,94 !important     }     .girlprofile_list > ul li.shop:hover {
+  background-color : 0,0,0 !important     }     .girlprofile_list > ul li.shop.stay {
+  background-color : 0,0,0 !important     }
+
+div.shop_header_1.clearfix > div.display_left > p {
+  background-color : #ff6005     }      div.shop_header_1.clearfix > div.display_left > p  {
+  color : #ffffff     }
+#search_form > table > tbody > tr:nth-child(1) {
+  background-color : #ff6005     }     #search_form > table > tbody > tr:nth-child(1) {
+  color : #ffffff     }
+#specialline_condition {
+  background-color : #ff6005     }     #specialline_condition {
+  color : #ffffff     }
+
+
+
+
+.slideoption_contentsmemu_image_wrapper {
+  background-color : #ff6005     }     .slideoption_contentsmemu_image_wrapper {
+  border-color : #ff6005     }     .slideoption_contentsmemu_info {
+  background-color : #ff6005     }     .slideoption_contentsmemu_info {
+  color : #ffffff     }
+
+#row-contents .pcwidgets-contents .show-list-button {
+  background-color : #ff6005     }     #row-contents .pcwidgets-contents .show-list-button>a {
+  color : #ffffff     }
+
+
+
+         #dummy-height-slide-banner .global-nav {
+  background-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner ul.global-nav-list li:hover {
+  background-color : rgba(125,255,73,0.8) !important     }         #dummy-height-slide-banner ul.global-nav-list .top {
+  background-color : rgba(125,255,73,0.8) !important     }             #dummy-height-slide-banner ul.global-nav-list li a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner ul.global-nav-list .top a {
+  color : #d15788 !important     }             #dummy-height-slide-banner .global-nav-list li a  {
+  font-size : 15px !important     }         #dummy-height-slide-banner ul.global-nav-list li  {
+  height : 23px !important     }         #dummy-height-slide-banner ul.global-nav-list li a {
+  color : #ffffff !important     }
+
+     #dummy-height-slide-banner .area .menu > li {
+  background-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner .area .menu > li:hover {
+  background-color : rgba(125,255,73,0.8) !important     }         #dummy-height-slide-banner .area .menu > .shop_menu_top_display_toggle {
+  background-color : rgba(125,255,73,0.8) !important     }             #dummy-height-slide-banner .area .menu a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner .area .menu .shop_menu_top_display_toggle a {
+  color : #d15788 !important     }         #dummy-height-slide-banner .area .menu a {
+  color : #ffffff !important     }       #dummy-height-slide-banner .area .menu > li  {
+  font-size : 15px !important     }
+
+     #dummy-height-slide-banner .top-menu-inner {
+  background-color : rgba(63,221,11,0.9) !important     }             #dummy-height-slide-banner .top-menu-inner ul li a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner .top-menu-inner ul .shop_menu_top_display_toggle a {
+  color : #d15788 !important     }         #dummy-height-slide-banner .top-menu-inner ul li a {
+  color : #ffffff !important     }       #dummy-height-slide-banner .top-menu-inner ul li a  {
+  font-size : 15px !important     }
+
+     #dummy-height-slide-banner .global_menu > .menu {
+  background-color : rgba(63,221,11,0.9) !important     }             #dummy-height-slide-banner .global_menu > .menu li a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner .global_menu > .menu li:hover {
+  border-bottom-color : #d15788 !important     }         #dummy-height-slide-banner .global_menu > .menu .shop_menu_top_display_toggle a {
+  color : #d15788 !important     }         #dummy-height-slide-banner .global_menu > .menu .shop_menu_top_display_toggle {
+  border-bottom-color : #d15788 !important     }         #dummy-height-slide-banner .global_menu > .menu li a {
+  color : #ffffff !important     }       #dummy-height-slide-banner .global_menu > .menu li  {
+  font-size : 15px !important     }
+
+     #dummy-height-slide-banner .grobalnavArea {
+  background-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner .grobalnavArea .nav {
+  background-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner .grobalnavArea {
+  border-top-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner .grobalnavArea {
+  border-bottom-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner .grobalnavArea .nav div:hover {
+  background-color : rgba(125,255,73,0.8) !important     }         #dummy-height-slide-banner .grobalnavArea .nav>div:first-child>a>span {
+  border-left-color : rgba(125,255,73,0.8) !important     }         #dummy-height-slide-banner .grobalnavArea .nav>div>a>span {
+  border-right-color : rgba(125,255,73,0.8) !important     }         #dummy-height-slide-banner .grobalnavArea .nav .shop_menu_top_display_toggle {
+  background-color : rgba(125,255,73,0.8) !important     }             #dummy-height-slide-banner .grobalnavArea .nav>div>a>span:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner .grobalnavArea .nav>.shop_menu_top_display_toggle>a>span {
+  color : #d15788 !important     }         #dummy-height-slide-banner .grobalnavArea .nav>div>a>span {
+  color : #ffffff !important     }       #dummy-height-slide-banner .grobalnavArea .nav>div>a>span  {
+  font-size : 15px !important     }
+
+     #dummy-height-slide-banner #globalNav .main {
+  background-color : rgba(63,221,11,0.9) !important     }             #dummy-height-slide-banner #globalNav ul.main li a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner #globalNav ul.main li .hover-line {
+  background : #d15788 !important     }         #dummy-height-slide-banner #globalNav ul.main li .hover-line-top {
+  background : #d15788 !important     }         #dummy-height-slide-banner #globalNav ul.main .shop_menu_top_display_toggle a {
+  color : #d15788 !important     }         #dummy-height-slide-banner #globalNav ul.main li a {
+  color : #ffffff !important     }       #dummy-height-slide-banner #globalNav ul.main li a  {
+  font-size : 15px !important     }
+
+     #dummy-height-slide-banner #top-menu .mean-bar {
+  background-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner #top-menu #cls #menuTrigger {
+  background-color : rgba(63,221,11,1) !important     }       #dummy-height-slide-banner #top-menu #nav5 li> a {
+  color : #ffffff !important     }       #dummy-height-slide-banner #top-menu .mean-bar ul li {
+  border-top-color : #ffffff !important     }       .menu_trigger .menu_trigger_container span {
+  background-color : #ffffff !important     }       .menu_trigger .menu_trigger_container p {
+  color : #ffffff !important     }       #dummy-height-slide-banner #top-menu .mean-bar a.meanmenu-reveal {
+  color : #ffffff !important     }           #dummy-height-slide-banner #top-menu #nav5 li span a {
+  color : #d15788 !important     }         #dummy-height-slide-banner #top-menu #nav5 .shop_menu_top_display_toggle> a {
+  color : #d15788 !important     }             #dummy-height-slide-banner #top-menu #nav5 li> a  {
+  font-size : 15px !important     }         #dummy-height-slide-banner #top-menu #nav5 li span a  {
+  font-size : 15px !important     }         #dummy-height-slide-banner #top-menu .mean-bar #nav5 li {
+  height : 39px !important     }  
+
+     #dummy-height-slide-banner #menu1_wrapper {
+  background-color : rgba(63,221,11,0.9) !important     }         #dummy-height-slide-banner #menu1_wrapper {
+  box-shadow : 1px 5px rgb(63,221,11)!important     }             #dummy-height-slide-banner #menu1_wrapper ul li a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner #menu1_wrapper ul .shop_menu_top_display_toggle a {
+  color : #d15788 !important     }         #dummy-height-slide-banner #menu1_wrapper ul li a {
+  color : #ffffff !important     }       #dummy-height-slide-banner #menu1_wrapper ul li a  {
+  font-size : 15px !important     }  
+
+
+
+     #dummy-height-slide-banner .navArea nav a:hover {
+  background-color : rgba(125,255,73,0.8) !important     }         #dummy-height-slide-banner .navArea nav a.shop_menu_top_display_toggle {
+  background-color : rgba(125,255,73,0.8) !important     }             #dummy-height-slide-banner .navArea nav a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner .navArea nav a.shop_menu_top_display_toggle {
+  color : #d15788 !important     }         #dummy-height-slide-banner .navArea nav a {
+  color : #ffffff !important     }           #dummy-height-slide-banner .navArea nav a {
+  font-size : 15px !important     }  
+
+
+
+    #dummy-height-slide-banner ul.list_bg_color li a:hover {
+  color : #d15788 !important     }         #dummy-height-slide-banner ul.list_bg_color .top a {
+  color : #d15788 !important     }         #dummy-height-slide-banner .global-nav .btn-close:hover {
+  color : #d15788 !important     }    
+     #dummy-height-slide-banner ul.list_bg_color li a {
+  color : #ffffff !important     }         #dummy-height-slide-banner div.menu_font {
+  color : #ffffff !important     }         #dummy-height-slide-banner div.menu_mark span {
+  background-color : #ffffff !important     }         #dummy-height-slide-banner .global-nav .btn-close {
+  color : #ffffff !important     }    
+     #dummy-height-slide-banner div.menu_mark {
+  background-color : rgba(63,221,11,1) !important     }         #dummy-height-slide-banner div.menu_mark {
+  border : 1px solid rgba(63,221,11,1) !important     }  
+   #dummy-height-slide-banner div.menu_mark:hover {
+  background-color : #ffffff !important     }         #dummy-height-slide-banner div.menu_mark:hover > span {
+  background-color : rgba(63,221,11,1) !important     }         #dummy-height-slide-banner ul.list_bg_color li a {
+  font-size : 15px !important     } 
+
+
+
+
+.shop_menu_chokuso_display_toggle {
+  display : none !important     }     .shop_menu_message_display_toggle {
+  display : none !important     }
+
+
+#shopfooter #footernavi .shop_menu_top_display_toggle {
+  border-left : none !important     }
+#header-top .navmenu .shop_menu_mens_recruit_display_toggle {
+  border-right : none !important     }
+ul.global-nav-list .shop_menu_top_display_toggle {
+  border-top : 1px solid #AAA !important     }
+#dummy-height-slide-banner .global_menu > .menu .shop_menu_top_display_toggle {
+  margin-left : 6px !important     }     #dummy-height-slide-banner .global_menu > .menu .shop_menu_mens_recruit_display_toggle {
+  margin-right : 13px !important     }
+#dummy-height-slide-banner .grobalnavArea .nav>.shop_menu_top_display_toggle>a>span {
+  border-left : 1px solid rgba(125,255,73,0.8) !important     }
+
+
