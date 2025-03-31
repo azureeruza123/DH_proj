@@ -1,0 +1,105 @@
+  <main class="wrapper underlayer">
+    <nav id="bread">
+      <ol class="breadlist">
+        <li><a href="/">アイドル研究所</a></li>
+        <li>スケジュール</li>
+      </ol>
+    </nav>
+    <div class="wrapper_inner">
+      <section id="schedule" class="block underlayer_therapistlist">
+        <h2 class="section_title">スケジュール</h2>
+        <h3 class="sellect_date">
+          <i class="far fa-calendar-alt"></i>
+          03月30日（日）
+        </h3>
+        <nav class="schedule_date">
+          <ol class="schedule_datelist flex">
+            <li class="active">
+              <a href="/daysche?ti=0">
+                <span class="date"><span>03/</span>30</span>
+                <span class="week sunday">(日)</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="/daysche?ti=1">
+                <span class="date"><span>03/</span>31</span>
+                <span class="week monday">(月)</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="/daysche?ti=2">
+                <span class="date"><span>04/</span>01</span>
+                <span class="week tuesday">(火)</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="/daysche?ti=3">
+                <span class="date"><span>04/</span>02</span>
+                <span class="week wednesday">(水)</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="/daysche?ti=4">
+                <span class="date"><span>04/</span>03</span>
+                <span class="week thursday">(木)</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="/daysche?ti=5">
+                <span class="date"><span>04/</span>04</span>
+                <span class="week friday">(金)</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="/daysche?ti=6">
+                <span class="date"><span>04/</span>05</span>
+                <span class="week saturday">(土)</span>
+              </a>
+            </li>
+          </ol>
+        </nav>
+        <div class="therapist_list flex sp_sectioninner">
+          <div>
+            <a href="/index.php/module/Store/action/GirlInfo/Store_Id/37/User_Id/3874"></a>
+            <div class="therapist_img_wrapper rank rank_3 ">
+              <p class="therapist_img">
+                <img src="https://placehold.jp/150x150.png" alt="りんか" class="animate fadeIn">
+              </p>
+              <ul class="therapist_icon">
+                <!-- 管理画面で設定されたランクのsytleをspanに付与 -->
+                <li><span style="background-color: #616161;color: #ffffff;">地下アイドル</span></li>
+              </ul>
+              <!-- <ul class="therapist_sns flex">
+                                      <li class="sns_icon_twitter">
+                      <a href="https://twitter.com/@aidolRinka_20" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                    </li>
+                                                    </ul> -->
+            </div>
+            <div class="therapist_meta">
+              <h3 class="therapist_name">りんか（20）</h3>
+              <p class="therapist_height">T.157cm / B85（D）/ W54 / H84</p>
+              <p class="therapist_time therapist_text_box">10:00～23:00</p>
+              <p class="therapist_comment therapist_text_box">
+                今すぐOK！
+              </p>
+            </div>
+          </div>
+
+
+
+        </div><!-- therapist_list -->
+      </section><!-- schedule -->
+    </div><!-- wrapper_inner -->
+
+
+    <script src="../js/jquery.inview.min.js"></script>
+    <script>
+      $('.fadeIn').on('inview', function (event, isInView) {
+        if (isInView) {
+          $(this).addClass('animated');
+          $(this).css('opacity', 1);
+        }
+      })
+    </script>
+
+  </main>

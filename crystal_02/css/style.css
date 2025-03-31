@@ -1285,12 +1285,12 @@ header {
 	.therapist_list > div {
 		width: calc(100% / 4 - 6px);
 	}
-	.therapist_list > div:not(:nth-of-type(4n)) {
-		margin-right: 8px;
+
+	.therapist_list {
+		display:flex;
+		gap:8px;
 	}
-	.therapist_list > div:not(:nth-of-type(-n + 4)) {
-		margin-top: 20px;
-	}
+
 	.therapist_img img {
 		transition: .5s;
 	}
@@ -3113,6 +3113,19 @@ footer * {
 
 
 /*--- shecule ---*/
+
+#ti_content .content_ti_1,
+#ti_content .content_ti_2,
+#ti_content .content_ti_3,
+#ti_content .content_ti_4,
+#ti_content .content_ti_5,
+#ti_content .content_ti_6 {
+  display: none; /* 初期状態ではすべて非表示 */
+}
+#ti_content .active {
+  display: block; /* アクティブなコンテンツだけを表示 */
+}
+
 #schedule h2 {
 	margin-bottom: 15px;
 }
@@ -3140,6 +3153,7 @@ footer * {
 .schedule_datelist li {
 	width: calc(100% / 7);
 	text-align: center;
+	cursor: pointer;
 }
 .schedule_datelist li + li {
 	border-left: 1px solid #FFF;
