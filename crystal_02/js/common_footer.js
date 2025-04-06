@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <div class="footer_wrapper flex">
       <div class="footer_info flex">
-        <img src="https://placehold.jp/150x150.png" alt="大阪 梅田 デリバリーヘルス アイドル研究所">
+        <img src="${ROOT_PATH}/img/logo_02.webp" alt="大阪 梅田 デリバリーヘルス アイドル研究所">
         <p>大宮デリバリーヘルス Crystal</p>
         <dl>
           <dt>TEL</dt>

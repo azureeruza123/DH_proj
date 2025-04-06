@@ -485,7 +485,7 @@ header {
 		align-items: center;
 	}
 	.header_logo {
-		width: 320px;
+		width: 250px;
 		line-height: 0;
 	}
 	.header_info > p {

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <div class="header_inner">
       <h1 class="header_logo">
-        <a href="/" class="pc_b"><img src="https://placehold.jp/150x150.png" alt="大阪 梅田 デリバリーヘルス アイドル研究所"></a>
+        <a href="/" class="pc_b"><img src="${ROOT_PATH}/img/logo_02.webp" alt="大阪 梅田 デリバリーヘルス アイドル研究所"></a>
         <a href="/" class="sp_b"><img src="https://placehold.jp/150x150.png" alt="大阪 梅田 デリバリーヘルス アイドル研究所"></a>
       </h1>
       <div class="header_info pc_b">
@@ -49,12 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 class="fas fa-camera"></i>PhotoDiary<span>写メ日記</span></a></li>
           <li class="sp_b"><a href="${ROOT_PATH}/voice?a=l"><i class="fas fa-comment-dots"></i>レビュー<span>Review</span></a></li>
           <li><a href=""><i
-                class="fa-solid fa-bell-concierge"></i>Reserve<span>ネット予約</span></a></li>
+                class="fa-solid fa-bell-concierge"></i>Reserve<span>LINE予約</span></a></li>
+          <!--
           <li><a href=""><i
                 class="fas fa-seedling"></i>Recruit<span>キャスト求人</span></a></li>
           <li><a href=""><i
                 class="fas fa-seedling"></i>Recruit<span>スタッフ求人</span></a></li>
-          <li class="sp_b"><a href="${ROOT_PATH}/link"><i class="fas fa-link"></i>リンク<span>Link</span></a></li>
+          -->
         </ul>
       </nav>
     </div><!-- globalnavi_wrapper -->
